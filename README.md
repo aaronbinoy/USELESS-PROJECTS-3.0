@@ -1,96 +1,54 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
-
-# 🪥 Toothbrush Wear Detection — Because Your Dentist Wasn’t Enough
-
+# 🪞 Periscope — Invisible Morse Code Generator
 
 ## Basic Details
 ### Team Name: Smart Boys
-
 
 ### Team Members
 - Team Lead: Aaron Binoy - Saintgits College of Engineering
 - Member 2: Abin Sunil - Saintgits College of Engineering
 
 ### Project Description
-It fixes this by applying computer vision to analyze your toothbrush's bristle wear in real-time. Just snap a photo or scan it via webcam, and the model classifies its structural integrity—telling you whether it’s still cleaning your teeth or actively destroying your gums.
+Periscope is a contactless, optical and auditory Morse code telecommunication device. Instead of pressing physical keys, users tap their hands through thin air in front of an ultrasonic sensor. The system processes hand proximity timing, translates short/long proximity breaks into Dots and Dashes, triggers a blinding 12V optical flash relay alongside a piezo audio signal, and outputs decoded text directly to a Serial Interface in real time.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+In an age saturated with ultra-fast 5G networks, messaging apps, and instant text delivery, humanity has lost the dramatic tension of waiting several minutes to send a single word. Physical buttons are far too tactile and reliable, while touchscreens lack the thrilling ambiguity of non-contact air gestures. Modern communications completely fail to incorporate high-voltage clicks and blinding optical signals for simple messages.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Periscope fixes modern messaging over-convenience by forcing you to wave your hands like a mad scientist in front of an ultrasonic sensor to spell out messages character-by-character. By measuring hand proximity timing down to the millisecond, it triggers a loud 1-channel relay, flashes a 12V LED light array, sounds an audio buzzer, and decodes your gestures using embedded microcontrollers—delivering a blazing data throughput of roughly 2 words per minute.
+
+---
 
 ## Technical Details
 ### Technologies/Components Used
+
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- C / C++ (Arduino Framework)
+- C++ Data Structures (`struct` Array Mapping)
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- ESP32 Microcontroller (NodeMCU-32S / ESP-WROOM-32)
+- HC-SR04 Ultrasonic Distance Sensor
+- 1-Channel Relay Module (5V Coil / Active-HIGH Logic)
+- Piezo Passive/Active Buzzer
+- 12V LED Strip / Signage Light Array
+- 9V / 12V External DC Battery
+- Breadboard & Jumper Wires
+
+---
 
 ### Implementation
+
 For Software:
+
 # Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+1. Install [VS Code](https://code.visualstudio.com/) with the [PlatformIO IDE](https://platformio.org/) extension installed (or use the official [Arduino IDE](https://www.arduino.cc/en/software)).
+2. Clone this repository to your local machine:
+```bash
+git clone [https://github.com/Smart-Boys/Periscope-Invisible-Morse-Code-Generator.git](https://github.com/Smart-Boys/Periscope-Invisible-Morse-Code-Generator.git)
+cd Periscope-Invisible-Morse-Code-Generator
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
