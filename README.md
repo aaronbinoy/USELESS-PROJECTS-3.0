@@ -128,8 +128,17 @@ USB 5V Power Supply                    9V External Battery
 
 ### Project Demo
 
+https://github.com/user-attachments/assets/a8062817-a892-4da8-9685-bf0ada1f5137
+
 
 ### Additional Demos
+
+
+
+
+
+
+
 
 
 ### Team Contributions
