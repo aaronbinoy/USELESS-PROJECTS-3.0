@@ -62,10 +62,10 @@ For Software:
 Pause 1 second: Decodes current symbol pattern into a letter
 
 ###Screenshots (Add at least 3)
-Serial terminal showing live dot/dash pulse detection and real-time ASCII letter decoding
+### <img width="1600" height="852" alt="WhatsApp Image 2026-09-13 at 10 13 12" src="https://github.com/user-attachments/assets/32fd7f27-acba-45c8-a9bb-e45be6889879" />
 
 ###PlatformIO / Arduino IDE configuration showing pin mappings and threshold configurations
-
+### <img width="1600" height="852" alt="WhatsApp Image 2026-09-13 at 10 13 12" src="https://github.com/user-attachments/assets/32fd7f27-acba-45c8-a9bb-e45be6889879" />
 Demonstration of line-by-line Morse string parsing outputting decoded text
 
 ###Diagrams
@@ -100,29 +100,36 @@ graph TD
     Q --> A
 ```
 
-For Hardware:
 
-###Schematic & Circuit
-Circuit diagram highlighting ESP32 GPIO pin connections to ultrasonic sensor, relay, and buzzer
 
-Power distribution schematic showing shared common ground between 9V battery and ESP32 logic rail
+### Schematic & Circuit
 
-###Build Photos
-Component inventory: ESP32, HC-SR04 ultrasonic sensor, relay module, 12V LED strip, 9V battery, and buzzer
+USB 5V Power Supply                    9V External Battery
+       |                                         |
+       +---> [ ESP32 Microcontroller ]           +---> [ Relay COM Terminal ]
+                   |      |                                   |
+    GPIO 5 (TRIG) -+      +-- VIN (5V) ---> [ Relay VCC ]     | (Switched Path)
+    GPIO 18 (ECHO)-+      +-- GPIO 23 ----> [ Relay IN  ]     v
+    GPIO 19 -------+---- [ Buzzer (+) ]                [ Relay NO Terminal ]
+                          |                                   |
+                          |                                   v
+                          |                         [ 12V LED Strip (+) ]
+                          |                                   |
+                          v                                   v
+             =======================================================
+             COMMON GROUND RAIL  (ESP32 GND = 9V (-) = LED (-))
+             =======================================================
 
-Assembly process showing breadboard connections and high-power terminal block wiring on the relay
+### Build Photos
 
-Final operational build showing the complete contactless optical periscope communicator in action
 
-###Project Demo
-Video
-Watch the Periscope Demo Video on YouTube
-Demonstrates hovering a hand over the ultrasonic sensor, the clicking relay, flashing 12V light, piezo buzzer audio, and live terminal text decoding.
+### Project Demo
 
-###Additional Demos
-Project Presentation / Slides
 
-###Team Contributions
+### Additional Demos
+
+
+### Team Contributions
 Aaron Binoy: System architecture design, ESP32 microsecond pulse timing implementation, state-machine Morse decoding logic, hardware assembly, and debugging.
 
 Abin Sunil: Hardware circuit wiring, relay-to-12V power path isolation, common ground bus integration, testing, and documentation.
