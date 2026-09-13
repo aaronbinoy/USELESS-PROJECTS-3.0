@@ -122,6 +122,9 @@ USB 5V Power Supply                    9V External Battery
 
 ### Build Photos
 
+<img width="1200" height="1600" alt="dsdgya" src="https://github.com/user-attachments/assets/aa193baf-a87e-4803-96fa-de7426d00b9a" />
+<img width="1200" height="1600" alt="WhatsApp Image 2026-09-13 at 10 23 20" src="https://github.com/user-attachments/assets/170e159c-4da4-488a-bacc-f1eeb0a1b9db" />
+<img width="1200" height="1600" alt="bhsdg" src="https://github.com/user-attachments/assets/8e7a7e91-d240-48d1-9375-2395f1fd0640" />
 
 ### Project Demo
 
