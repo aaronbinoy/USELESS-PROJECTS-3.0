@@ -134,8 +134,8 @@ USB 5V Power Supply                    9V External Battery
 
 ### Team Contributions
 Aaron Binoy: System architecture design, ESP32 microsecond pulse timing implementation, state-machine Morse decoding logic, hardware assembly, and debugging.
-
 Abin Sunil: Hardware circuit wiring, relay-to-12V power path isolation, common ground bus integration, testing, and documentation.
+
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
