@@ -2,20 +2,19 @@
 
 
 
-# [Project Name] 🎯
+# 🪥 Toothbrush Wear Detection — Because Your Dentist Wasn’t Enough
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Smart Boys
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Aaron Binoy - Saintgits College of Engineering
+- Member 2: Abin Sunil - Saintgits College of Engineering
 
 ### Project Description
-[2-3 lines about what your project does]
+It fixes this by applying computer vision to analyze your toothbrush's bristle wear in real-time. Just snap a photo or scan it via webcam, and the model classifies its structural integrity—telling you whether it’s still cleaning your teeth or actively destroying your gums.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
